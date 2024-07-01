@@ -13,7 +13,7 @@ firebase.initializeApp(firebaseConfig);
 
 // Reference to the Firebase Realtime Database
 var database1 = firebase.database().ref('Slots1_5');
-var database2 = firebase.database().ref('Slots6_10');
+var database2 = firebase.database().ref('slots6_10');
 
 function ubahWarna(element, status) {
     if (status === 'tersedia') {
